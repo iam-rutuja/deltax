@@ -21,12 +21,12 @@ exports.signup = async (req, res) => {
             var transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                  user: 'aditya.k@trikatechnologies.com',
-                  pass: 'uezqkxskicwrvcmd'
+                  user: 'rutujayadav17@gmail.com',
+                  pass: 'mkihzotxehphikhk'
                 }
             });
             var mailOptions = {
-                from: 'adityakadam423@gmail.com',
+                from: 'rutujayadav17@gmail.com',
                 to: email,
                 subject: 'Account activation link',
                 html: `
